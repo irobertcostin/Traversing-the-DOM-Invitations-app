@@ -1,0 +1,204 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* background-image: url("./new-york-statue-of-liberty_16x9.webp"); */
+}
+
+input , label , button {
+    display: block;
+}
+
+h1 {
+    font-family: 'Sofia';
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h4 {
+    color: white;
+    font-size: 30px;
+
+    text-shadow: 2px 2px 4px #000000;
+}
+
+img {
+    max-width: 100%;
+}
+
+.amain {
+    width: 70%;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    
+}
+
+.main {
+    /* border: 2px solid red; */
+    /* width: 70%; */
+    background-image: url("./new-york-statue-of-liberty_16x9.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    border-radius: 10px 10px 0px 0px ;
+    
+    position: relative;
+}
+
+.invite {
+    display: flex;
+    /* padding: 5px; */
+    background-color: white;
+    box-shadow:#655b5b 4px 4px;
+    position: absolute;
+    bottom: -10px;
+    /* left: 10 */
+    border: none;
+    border-radius: 2px;
+    padding: 3px;
+
+}
+
+.invite input {
+    height: 25px;
+    width: 300px;
+    border: none;
+    /* border-radius: 5?px; */
+    outline: none;
+}
+
+.invite button {
+    margin-left: 1px;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(47, 162, 244);
+    border: none;
+    cursor: pointer;
+}
+
+.invitationaside {
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+
+.radio {
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+}
+
+#invitees {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.radio label {
+    font-size: 15px;
+}
+
+
+.newdiv {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    border: 2px solid black;
+    padding: 20px;
+
+    border-radius: 5px;
+    box-shadow: #655b5b 5px 5px;
+}
+
+.theones  {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+border-radius: 10px;
+/* border: 2px solid red; */
+
+}
+
+
+
+.divDoi {
+    display: flex;
+    /* border: 2px solid green; */
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.labeltable {
+    font-size: 30px;
+    /* font-weight: bold; */
+}
+
+.lastdiv {
+    display:flex;
+    justify-content:space-between;
+    /* border: 2px solid green; */
+}
+
+.edit {
+    color: white;
+    background-color: rgb(82, 170, 225);
+    border-radius: 2px;
+    border: 0px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.remove {
+    color: white;
+    background-color: rgb(30, 96, 211);
+    border-radius: 2px;
+    margin-left: 10px;
+    border: 0px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.inputnou {
+    width: 100%;
+    height: 25px;
+}
+
+.newlabel {
+    font-size: 30px;
+    /* font-weight: bold; */
+}
+
+.save {
+    color: white;
+    background-color: rgb(82, 170, 225);
+    border-radius: 2px;
+    border: 0px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
