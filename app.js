@@ -64,7 +64,10 @@ theOnes.addEventListener("click", e => {
         bunicul.insertBefore(label,y);
         label.textContent = aux;
         label.classList.add("labeltable");
-        
+        console.log(obj)
+        obj.classList.remove("save");
+        obj.textContent = "Edit";
+        obj.classList.add("edit");
     }
 
     
